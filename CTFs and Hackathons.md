@@ -84,7 +84,3 @@ The following sections will list the links to some of the most useful learning r
 If you have any further questions regarding how to go about these CTFs, feel free to message me as I am also in the MITS discord. If you want to contact me directly, my username is jc#5897, otherwise just pop a message into the cybernet-general chat and I am sure that either myself, or one of the many other people in the Discord familiar with CTFs will be able to help.
 
 Happy hacking and good luck :)
-
-
-
-## Coding Hackathon
