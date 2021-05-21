@@ -7,10 +7,10 @@ Competing in CTFs is not only a personally rewarding experience, but will also h
 
 ### Tools (set these up before you try learning)
 * Python 3 - Used for scripting e.g., automating web or pwn attacks using pwntools
-* pwntools - A Python library that simplifies the process of writing pwn or web exploits. Installation details found at https://docs.pwntools.com/en/stable/install.html.
+* pwntools - A Python library that simplifies the process of writing pwn or web exploits. Details regarding how to install pwntools and tutorials on how to use the library can be found at https://github.com/Gallopsled/pwntools-tutorial
 * Kali Linux - A Linux distribution designed for pentesting. Download the ISO at https://www.kali.org/downloads/ and install it using VMWare. Don't forget the Murdoch gives all students access to VMWare Pro Workstation. There are plenty of guides online detailing how to install Kali Linux using VMWare, so I won't go into detail here.
   * Comes preinstalled with many useful tools that you will use regularly in CTFs including (I will leave it up to you to research these):
-    * Burpsuite
+    * BurpSuite - short intro to BurpSuite tutorial can be found at https://www.youtube.com/watch?v=24dUQ1LvopE
     * base64
     * Wireshark
     * binwalk
@@ -33,7 +33,8 @@ CTF challenges are typically broken down into the following categories:
   * Misc - miscellaneous challenges that don't fit into any category specifically
 The following sections will list the links to some of the most useful learning resources we have personally used, or otherwise have heard to be very useful for each of the respective CTF categories. Where possible, try to get your hands on the challenge files and follow along to the writeups.
 
-#### Pwn
+#### Pwn (Binary Exploitation)
+* https://guyinatuxedo.github.io/index.html - Intro to binary exploitation / reverse engineering course based on REAL past CTF challenges (really good guide)
 * https://www.youtube.com/playlist?list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN - LiveOverflow playlist of binary exploitaiton/reversing
 * https://trailofbits.github.io/ctf/exploits/binary1.html - basic binary exploitation guide
 * https://ropemporium.com/ - ropchain exercises (many guides and walkthroughs available online e.g., https://www.youtube.com/watch?v=oBZy0bGNezo&list=PLHUKi1UlEgOKAVRdiMlpX6hgayiY6dTwu)
@@ -42,6 +43,7 @@ The following sections will list the links to some of the most useful learning r
 
 #### Reversing
 * https://malwareunicorn.org/workshops/re101.html - Intro to reversing (explains basics of program, assembly and stacks)
+* https://guyinatuxedo.github.io/index.html - Intro to binary exploitation / reverse engineering course based on REAL past CTF challenges (really good guide)
 * https://www.youtube.com/playlist?list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN - LiveOverflow playlist of binary exploitaiton/reversing
 * https://www.youtube.com/watch?v=z4lgNNaCH3s - writeups for HackTheBox Cyber Apocalypse 2021 Reversing challenges
 * https://github.com/N4NU/Reversing-Challenges-List - list of reversing challenges from various past CTFs
